@@ -8,6 +8,10 @@ html {
     font-style: normal;
 }
 
+body {
+    padding-bottom: 50px;
+}
+
 /* Styles */
 .header {
     height: 50px;
