@@ -1,5 +1,12 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 /* Styles */
 .header {
@@ -29,4 +36,56 @@
     margin: 0 auto;
     width: 90%;
     margin-top: 40px;
+}
+
+.product-card {
+    height: 400px;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+.product-card img {
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 8px;
+}
+
+.product-card__text {
+    margin-top: 15px;
+}
+
+.product-card__text-price {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#price {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#structure {
+    margin-top: 15px;
+}
+
+.product-card__button {
+    margin-top: 15px;
+}
+
+.product-card__button button {
+    height: 40px;
+    background-color: #e64d4d;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    width: 100%;
+    border-radius: 8px;
+    transition: .1s ease;
+}
+
+.product-card__button button:hover {
+    background-color: #d44949;
 }
