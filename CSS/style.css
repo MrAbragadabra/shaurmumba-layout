@@ -24,3 +24,9 @@
     text-transform: uppercase;
     color: #e64d4d;
 }
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 40px;
+}
