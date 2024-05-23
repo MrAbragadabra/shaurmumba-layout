@@ -3,11 +3,19 @@
         min-width: 350px;
         max-width: 450px;
     }
+
+    .products {
+        gap: 35px;
+    }
 }
 
 @media (max-width: 540px) {
     .product-card {
         min-width: 250px;
         max-width: 350px;
+    }
+
+    .products {
+        gap: 35px;
     }
 }
