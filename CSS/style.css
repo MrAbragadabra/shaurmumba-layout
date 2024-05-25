@@ -48,6 +48,10 @@ body {
     transition: .1s ease;
 }
 
+.login-button:hover {
+    background-color: #d44949;
+}
+
 .header__container {
     margin: 0 auto;
     width: 90%;
@@ -121,4 +125,62 @@ body {
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.14);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-form h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.login-form input {
+    border-radius: 8px;
+    border: 3px #bebebe solid;
+    padding: 7px;
+    transition: .1s ease;
+}
+
+.login-form input:focus {
+    border-color: #e64d4d;
+    transition: border-color .5s ease;
+}
+
+.login-form button {
+    height: 40px;
+    background-color: #e64d4d;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    width: 100%;
+    border-radius: 8px;
+    transition: .1s ease;
+}
+
+.login-form button:hover {
+    background-color: #d44949;
+}
+
+.login-form a {
+    color: #d44949;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.login-form a:hover {
+    text-decoration: none;
 }
