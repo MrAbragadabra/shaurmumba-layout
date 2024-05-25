@@ -46,6 +46,7 @@ body {
     color: #fff;
     border-radius: 8px;
     transition: .1s ease;
+    border: none;
 }
 
 .login-button:hover {
@@ -102,6 +103,7 @@ body {
 
 .product-card__button {
     margin-top: 15px;
+    border: none;
 }
 
 .product-card__button button {
@@ -114,6 +116,7 @@ body {
     width: 100%;
     border-radius: 8px;
     transition: .1s ease;
+    border: none;
 }
 
 .product-card__button button:hover {
@@ -169,6 +172,7 @@ body {
     width: 100%;
     border-radius: 8px;
     transition: .1s ease;
+    border: none;
 }
 
 .login-form button:hover {

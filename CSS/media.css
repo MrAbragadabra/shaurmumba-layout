@@ -18,4 +18,17 @@
     .products {
         gap: 35px;
     }
+
+    .login-form {
+        font-size: 30px;
+    }
+
+    .login-form h2{
+        font-size: 40px;
+    }
+
+    .login-form button {
+        font-size: 30px;
+        height: 50px;
+    }
 }
