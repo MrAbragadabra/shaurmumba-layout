@@ -1,6 +1,7 @@
 @import "_variables.scss";
 
 .header {
+    user-select: none;
     height: 50px;
     border-bottom: 1px #e3e3e3 solid;
 

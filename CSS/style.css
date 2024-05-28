@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .header {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   height: 50px;
   border-bottom: 1px #e3e3e3 solid;
 }
@@ -123,9 +126,50 @@ legend {
   display: block;
 }
 
+.btn {
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  color: #fff;
+  background-color: #e64d4d;
+  border-radius: 8px;
+  padding: 10px;
+  height: 40px;
+  transition: 0.2s ease;
+}
+.btn:hover {
+  background-color: #d44949;
+}
+
+.card {
+  max-width: 350px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+}
+.card .card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card .card_name-price {
+  display: flex;
+  justify-content: space-between;
+}
+.card .card__header img {
+  border-radius: 8px;
+}
+.card .card__price p {
+  font-weight: 700;
+}
+
 *::-webkit-scrollbar {
-  height: 10px;
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 *::-webkit-scrollbar-track {
@@ -166,4 +210,12 @@ body {
 .container, .header__container {
   max-width: 90%;
   margin: 0 auto;
+}
+
+.cards {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }/*# sourceMappingURL=style.css.map */
