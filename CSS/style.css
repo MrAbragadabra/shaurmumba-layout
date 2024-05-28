@@ -1,6 +1,38 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.header {
+  height: 50px;
+  border-bottom: 1px #e3e3e3 solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.header a {
+  color: #e64d4d;
+}
+.header h1 {
+  font-size: 30px;
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__menu a {
+  text-transform: uppercase;
+  font-weight: 700;
+  background: linear-gradient(currentColor 0 0) bottom/var(--d, 0) 2px no-repeat;
+  transition: 0.2s;
+}
+.header__menu a:hover {
+  --d: 100%;
+}
+
 /* Reset and base styles  */
 * {
   padding: 0px;
@@ -86,4 +118,9 @@ label {
 
 legend {
   display: block;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

@@ -3,3 +3,8 @@
 @import "_media.scss";
 @import "_reset.scss";
 @import "_variables.scss";
+
+html {
+    font-family: $font;
+    font-weight: 500;
+}

@@ -1,0 +1,40 @@
+@import "_variables.scss";
+
+.header {
+    height: 50px;
+    border-bottom: 1px #e3e3e3 solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    a {
+        color: $primary-color;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-family: $logo-font;
+        text-transform: uppercase;
+    }
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        text-transform: uppercase;
+        font-weight: 700;
+        background: 
+            linear-gradient(currentColor 0 0) 
+            bottom /var(--d, 0) 2px 
+            no-repeat;
+        transition:0.2s;
+    }
+
+    a:hover {
+        --d: 100%;
+    }
+}
