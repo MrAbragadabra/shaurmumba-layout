@@ -4,10 +4,6 @@
 .header {
   height: 50px;
   border-bottom: 1px #e3e3e3 solid;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
 }
 .header a {
   color: #e64d4d;
@@ -16,6 +12,13 @@
   font-size: 30px;
   font-family: "Russo One", sans-serif;
   text-transform: uppercase;
+}
+
+.header__container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__menu {
@@ -120,7 +123,47 @@ legend {
   display: block;
 }
 
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #D7E1E3;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #e64d4d;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #d44949;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #C94545;
+}
+
 html {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+
+body {
+  padding-bottom: 20px;
+}
+
+.container, .header__container {
+  max-width: 90%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

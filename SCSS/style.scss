@@ -3,8 +3,28 @@
 @import "_media.scss";
 @import "_reset.scss";
 @import "_variables.scss";
+@import "elements/_button.scss";
+@import "elements/_card.scss";
+@import "elements/_form.scss";
+@import "elements/_scrollbar.scss";
 
 html {
     font-family: $font;
     font-weight: 500;
+}
+
+body {
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
