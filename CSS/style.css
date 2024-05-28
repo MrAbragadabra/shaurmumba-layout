@@ -167,6 +167,32 @@ legend {
   font-weight: 700;
 }
 
+.form {
+  margin: 40px auto;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 450px;
+  box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.14);
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.form form h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+.form form a {
+  text-transform: uppercase;
+  color: #e64d4d;
+  font-weight: 700;
+}
+.form form a:hover {
+  text-decoration: underline;
+}
+
 *::-webkit-scrollbar {
   height: 8px;
   width: 8px;
@@ -198,6 +224,19 @@ legend {
   background-color: #C94545;
 }
 
+.field {
+  width: 100%;
+  border: 3px #e3e3e3 solid;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: border-color 0.3s ease;
+}
+.field:focus {
+  border-color: #e64d4d;
+}
+
 html {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -216,6 +255,7 @@ body {
   margin-top: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 40px;
 }/*# sourceMappingURL=style.css.map */

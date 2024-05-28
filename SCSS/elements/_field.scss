@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+.field {
+    width: 100%;
+    border: 3px #e3e3e3 solid;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: border-color .3s ease;
+
+    &:focus {
+        border-color: $primary-color;
+    }
+}
