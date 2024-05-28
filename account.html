@@ -4,19 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Онлайн заказ еды для любителей шаурмы :3">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="content-language" content="ru">
-    <title>Личный кабинет</title>
+    <title>Вход</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!-- Reset CSS -->
-    <link rel="stylesheet" href="CSS/reset.css">
     <!-- Style CSS -->
     <link rel="stylesheet" href="CSS/style.css">
-    <!-- Media CSS -->
-    <link rel="stylesheet" href="CSS/media.css">
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
     <!-- Inputmask JS -->
@@ -26,34 +19,39 @@
 </head>
 
 <body>
-    <!-- Header -->
     <div class="header">
         <div class="header__container">
-            <h1 class="header-home"><a href="/">Шаурмумба</a></h1>
-            <div class="nav-menu">
-                <a href="account.html">Корзина</a>
-                <a href="account.html">Заказы</a>
-                <a href="account.html">Аккаунт</a>
+            <div class="header__logo">
+                <a href="index.html">
+                    <h1>Шаурмумба</h1>
+                </a>
+            </div>
+
+            <div class="header__menu">
+                <a href="reg.html">корзина</a>
+                <a href="reg.html">аккаунт</a>
+                <a href="reg.html">заказы</a>
             </div>
         </div>
     </div>
 
-    <!-- Main section -->
     <div class="container">
-        <h2 class="page-name">Личный кабинет</h2>
-        <div class="account-edit-view">
-            <div class="view">
-                <p>Минин Александр</p>
-                <p id="phone-user">+7 (992) 201 29-53</p>
-                <img src="IMG/cat.jpg">
+        <div class="profile">
+            <div class="profile__info">
+                <p class="profile__name"></p>
+                <p class="profile__phone"></p>
+                <img class="profile__avatar" src="IMG/cat.jpg">
+                <button class="btn" type="button">Изменить аватар</button>
             </div>
-            <div class="edit">
-                <form class="edit-form">
-                    <h2>Изменение информации</h2>
-                    <input name="name" placeholder="имя">
-                    <input name="second-name" type="text" placeholder="фамилия">
-                    <input name="phone" type="text" inputmode="numeric" placeholder="+7 (___) ___ __-__" id="phone-number">
-                    <button type="submit">Изменить</button>
+            <div class="profile__edit">
+                <form action="">
+                    <h2>Изменение данных</h2>
+                    <input class="field" type="text" placeholder="имя">
+                    <input class="field" type="text" placeholder="фамилия">
+                    <input class="field" id="phone-number" type="text" inputmode="numeric" placeholder="+7 (___) ___ __-__">
+                    <input class="field" type="password" placeholder="пароль">
+                    <input class="field" type="password" placeholder="повтор пароля">
+                    <button class="btn" type="submit">Изменить данные</button>
                 </form>
             </div>
         </div>
