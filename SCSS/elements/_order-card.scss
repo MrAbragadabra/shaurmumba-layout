@@ -1,0 +1,16 @@
+@import "../variables.scss";
+
+.order-card {
+    font-size: 18px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: $shadow;
+    padding: 20px;
+}
+
+.order-card__more-info {
+    width: auto;
+}

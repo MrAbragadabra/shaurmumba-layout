@@ -9,6 +9,7 @@
 @import "elements/_scrollbar.scss";
 @import "elements/field.scss";
 @import "elements/profile.scss";
+@import "elements/order-card.scss";
 
 html {
     font-family: $font;
@@ -31,4 +32,14 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+}
+
+.order-cards {
+    width: 100%;
+    margin-top: 40px;
+
+    h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
 }
