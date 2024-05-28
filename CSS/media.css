@@ -20,15 +20,36 @@
     }
 
     .login-form {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .login-form h2{
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .login-form button {
-        font-size: 30px;
+        font-size: 28px;
         height: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .account-edit-view {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .view {
+        width: 100%;
+    }
+
+    .edit {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .nav-menu {
+        display: none;
     }
 }
